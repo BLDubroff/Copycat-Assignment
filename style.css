@@ -2,6 +2,7 @@ body {
     background-color: #FFF;
     margin-top: 80px;
     padding: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -30,4 +31,11 @@ header li a {
 
 li > a:hover {
     color: #FFF;
+}
+
+.banner-block {
+    display: flex;
+    padding: 0 auto;
+    margin: 0 auto;
+    align-items: center;
 }

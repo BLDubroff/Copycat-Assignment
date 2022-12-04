@@ -11,7 +11,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
@@ -20,12 +20,18 @@ header * {
     display: inline;
 }
 
+header ul {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
 header li {
     margin: 20px;
 }
 
 header li a {
-    color: #D3D3D3;
+    color: #B3B6B7;
     text-decoration: none;
 }
 

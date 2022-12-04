@@ -1,15 +1,33 @@
 body {
-
+    background-color: #FFF;
+    margin-top: 80px;
+    padding: 30px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #36454F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
-li {
+header * {
     display: inline;
-    text-align: center;
-    padding: 1%;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: #FFF;
 }

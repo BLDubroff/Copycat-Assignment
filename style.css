@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF;
+    background-color: #fafafa;
     margin-top: 80px;
     padding: 30px;
     font-family: 'Roboto', sans-serif;
@@ -39,9 +39,16 @@ li > a:hover {
     color: #FFF;
 }
 
-.banner-block {
-    display: flex;
-    padding: 0 auto;
-    margin: 0 auto;
-    align-items: center;
+.center-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.center-hpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }

@@ -1,4 +1,4 @@
-body{
+body {
 
 }
 
@@ -6,4 +6,10 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 1%;
 }

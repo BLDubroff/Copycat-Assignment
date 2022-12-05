@@ -53,6 +53,9 @@ li > a:hover {
     margin-right: 0;
     height: 50%;
     width: 100%;
+    border-style: solid;
+    border-color: #fafafa;
+    border-width: .75em;
 }
 
 .square-grid {

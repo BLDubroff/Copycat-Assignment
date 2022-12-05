@@ -53,7 +53,7 @@ li > a:hover {
     margin-left: 0;
     margin-right: 0;
     height: 50%;
-    width: 100%;
+    width: 98%;
     border-style: solid;
     border-color: #fafafa;
     border-width: .75em;
@@ -70,6 +70,26 @@ li > a:hover {
     margin: 0;
     padding: 0;
     height: 50%;
-    width: 49%;
+    width: 48.75%;
     display: inline;
+    border-style: solid;
+    border-color: #fafafa;
+    border-width: .375em;
+}
+
+footer {
+    background-color: #B3B6B7;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 120px;
+}
+
+footer > p {
+    margin: 3em;
+    padding: 0;
+    color: #666;
+    font-size: small;
+    text-align: center;
 }

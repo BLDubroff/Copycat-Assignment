@@ -1,7 +1,7 @@
 body {
     background-color: #fafafa;
     margin-top: 80px;
-    padding: 30px;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,7 +20,8 @@ header * {
     display: inline;
 }
 
-header ul {
+header nav {
+    padding-left: 225px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -47,8 +48,24 @@ li > a:hover {
 }
 
 .center-hpg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50%;
     width: 100%;
+}
+
+.square-grid {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    display: inline;
+}
+.square-grid-img {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    display: inline;
 }

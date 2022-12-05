@@ -6,7 +6,8 @@ body {
 }
 
 header {
-    background-color: #36454F;
+    background-color: black;
+    opacity: 85%;
     position: fixed;
     top: 0;
     left: 0;
